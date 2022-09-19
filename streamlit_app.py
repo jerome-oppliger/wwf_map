@@ -5,8 +5,7 @@ st.set_page_config(layout="wide")
 
 # Customize the sidebar
 markdown = """
-Web App URL: <https://template.streamlitapp.com>
-GitHub Repository: <https://github.com/giswqs/streamlit-multipage-template>
+Analyse klimarelevanter Abstimmungen CH
 """
 
 st.sidebar.title("About")
