@@ -11,7 +11,7 @@ GitHub Repository: <https://github.com/giswqs/streamlit-multipage-template>
 
 st.sidebar.title("About")
 st.sidebar.info(markdown)
-logo = "https://i.imgur.com/UbOXYAU.png"
+logo = "https://logosmarken.com/wp-content/uploads/2020/11/World-Wide-Fund-for-Nature-Logo.png"
 st.sidebar.image(logo)
 
 # Customize page title
