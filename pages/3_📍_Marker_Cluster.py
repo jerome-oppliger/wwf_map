@@ -17,7 +17,7 @@ st.title("Analyse")
 with st.expander("See source code"):
     with st.echo():
 
-        m = leafmap.Map(center=[39, 7], zoom=7)
+        m = leafmap.Map(center=[46, 7], zoom=7)
         cities = 'https://raw.githubusercontent.com/giswqs/leafmap/master/examples/data/us_cities.csv'
         regions = 'https://raw.githubusercontent.com/giswqs/leafmap/master/examples/data/us_regions.geojson'
 
