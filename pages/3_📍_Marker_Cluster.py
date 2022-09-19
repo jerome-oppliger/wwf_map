@@ -14,8 +14,6 @@ st.sidebar.image(logo)
 
 st.title("Analyse")
 
- m = leafmap.Map(center=[46, 7], zoom=4)
-
 with st.expander("See source code"):
     with st.echo():
 
