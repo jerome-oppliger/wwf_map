@@ -22,6 +22,6 @@ with st.expander("See source code"):
         regions = 'https://github.com/jerome-oppliger/wwf_map/blob/b4cdcd287dd860097da82dae9262ef6fc4238e9e/data/Gemeinden_CH3.geojson'
 
         m.add_geojson(regions, layer_name='Gemeinden_CH3')
-
+        m
         
 m.to_streamlit(height=700)
