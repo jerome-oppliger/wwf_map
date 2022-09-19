@@ -14,15 +14,17 @@ logo = "https://logosmarken.com/wp-content/uploads/2020/11/World-Wide-Fund-for-N
 st.sidebar.image(logo)
 
 # Customize page title
-st.title("Streamlit for Geospatial Applications")
+st.title("Analyse klimarelevanter Abstimmungen CH")
 
 st.markdown(
     """
-    This multipage app template demonstrates various interactive web apps created using [streamlit](https://streamlit.io) and [leafmap](https://leafmap.org). It is an open-source project and you are very welcome to contribute to the [GitHub repository](https://github.com/giswqs/streamlit-multipage-template).
+    Interaktive Karten der WWF Schweiz Analyse zu folgenden klimarelevanten Abstimmungen:
+
+    - Bundesgesetz über die Verminderung von Treibhausgasemissionen (CO2-Gesetz). Abstimmungsdatum, 13.06.2021
     """
 )
 
-st.header("Instructions")
+st.header("Karte CO2-Gesetz")
 
 markdown = """
 1. For the [GitHub repository](https://github.com/giswqs/streamlit-multipage-template) or [use it as a template](https://github.com/giswqs/streamlit-multipage-template/generate) for your own project.
