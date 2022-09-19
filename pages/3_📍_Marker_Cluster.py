@@ -19,9 +19,9 @@ with st.expander("See source code"):
 
         m = leafmap.Map(center=[47, 7.9], zoom=8)
         cities = 'https://raw.githubusercontent.com/giswqs/leafmap/master/examples/data/us_cities.csv'
-        regions = 'https://github.com/jerome-oppliger/wwf_map/blob/590aee1856b45c9b9ad381c1be98fc3a1774238e/data/Gemeinden_CH3.geojson'
+        regions = 'https://github.com/jerome-oppliger/wwf_map/blob/b4cdcd287dd860097da82dae9262ef6fc4238e9e/data/Gemeinden_CH3.geojson'
 
-        m.add_geojson(regions, layer_name='CH Gemeinden')
+        m.add_geojson(regions, layer_name='Gemeinden_CH3')
 
         
 m.to_streamlit(height=700)
